@@ -1,0 +1,14 @@
+{
+  "name": "move-files-into-directories-by-date",
+  "version": "1.0.0",
+  "description": "Move all files in the specified directory into subdirectories according to modified date",
+  "main": "index.js",
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidAnson/Utilities.git"
+  },
+  "author": "David Anson (https://dlaa.me/)",
+  "license": "MIT",
+  "private": true
+}
