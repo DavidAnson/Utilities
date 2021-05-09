@@ -2,9 +2,9 @@
 
 > Bits of code I use for stuff
 
-## convert-favorites-txt-into-photo-blog-json
+## convert-favorites-txt-to-photo-blog-json
 
-Convert `Favorites.txt` files into `JSON` format suitable for photo blogging with [simple-website-with-blog](https://github.com/DavidAnson/simple-website-with-blog)
+Convert `Favorites.txt` files to `JSON` format suitable for photo blogging with [simple-website-with-blog](https://github.com/DavidAnson/simple-website-with-blog)
 
 ## move-files-into-directories-by-date
 
