@@ -1,0 +1,14 @@
+{
+  "name": "convert-favorites-txt-into-photo-blog-json",
+  "version": "1.0.0",
+  "description": "Convert `Favorites.txt` files into `JSON` format suitable for photo blogging with simple-website-with-blog",
+  "main": "index.mjs",
+  "bin": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidAnson/Utilities.git"
+  },
+  "author": "David Anson (https://dlaa.me/)",
+  "license": "MIT",
+  "private": true
+}
