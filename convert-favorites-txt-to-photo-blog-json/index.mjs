@@ -47,16 +47,18 @@ if (!contentDateString || !title) {
 const contentJsonArray = [];
 const fileContent = await readFile(resolve(favoritesAbs, "Favorites.txt"), "utf8");
 for (const line of toLines(fileContent)) {
-  const [ , image, caption ] = /^"([^"]+)"(.*)$/.exec(line) || [];
-  if (!image) {
-    console.error(`Malformed Favorites line: ${line}`);
-    exit(1);
-  }
-  if (caption) {
-    contentJsonArray.push({
-      "image": `${postId}/${image.replace(/^\.HEIC\.jpg$/, ".jpg")}`,
-      "caption": caption.trim()
-    });
+  if (line.trim().length > 0) {
+    const [ , image, caption ] = /^"([^"]+)"(.*)$/.exec(line) || [];
+    if (!image) {
+      console.error(`Malformed Favorites line: ${line}`);
+      exit(1);
+    }
+    if (caption) {
+      contentJsonArray.push({
+        "image": `${postId}/${image.replace(/(\.HEIC\.jpg|\.jpe?g|\.CRW)$/i, ".jpg")}`,
+        "caption": caption.trim()
+      });
+    }
   }
 }
 
@@ -69,3 +71,6 @@ const postJson = {
 };
 const postString = JSON.stringify(postJson, null, 2);
 await writeFile(resolve(siteAbs, "posts", `${postId}.json`), postString, "utf8");
+
+// Show output
+console.log(postString);
