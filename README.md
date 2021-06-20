@@ -6,6 +6,10 @@
 
 Convert `Favorites.txt` files to `JSON` format suitable for photo blogging with [simple-website-with-blog](https://github.com/DavidAnson/simple-website-with-blog)
 
+## dotfiles
+
+Dotfiles for Git and Zsh (Z shell)
+
 ## move-files-into-directories-by-date
 
 Move all files in the specified directory into subdirectories according to modified date

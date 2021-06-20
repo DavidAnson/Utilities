@@ -1,0 +1,7 @@
+[user]
+	name = David Anson
+	email = david@dlaa.me
+[core]
+	editor = nano
+[alias]
+	logk = log --graph --decorate --oneline
