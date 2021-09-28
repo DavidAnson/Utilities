@@ -4,4 +4,10 @@
 [core]
 	editor = nano
 [alias]
-	logk = log --graph --decorate --oneline
+	co = checkout
+	cp = cherry-pick
+	fp = fetch --tags --prune
+	l = log --graph --decorate --oneline
+	mfo = merge --ff-only
+	pfo = pull --ff-only
+	s = status
