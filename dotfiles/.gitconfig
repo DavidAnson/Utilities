@@ -4,10 +4,11 @@
 [core]
 	editor = nano
 [alias]
+	cf = clean -fdx
 	co = checkout
 	cp = cherry-pick
 	fp = fetch --tags --prune
 	l = log --graph --decorate --oneline
-	mfo = merge --ff-only
-	pfo = pull --ff-only
+	mf = merge --ff-only
+	pf = pull --ff-only
 	s = status
