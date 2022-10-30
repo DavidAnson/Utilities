@@ -31,7 +31,7 @@ for (const entry of entries) {
 }
 
 // Create content directory
-const postDateString = toPostDateString(new Date(postDateMs + millisecondsPerDay));
+const postDateString = toPostDateString(new Date(postDateMs + (millisecondsPerDay * 1.5)));
 const postId = postDateString.replaceAll("-", "");
 await mkdir(resolve(siteAbs, "static", "blog", postId), { "recursive": true });
 
