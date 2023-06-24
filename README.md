@@ -10,6 +10,10 @@ Convert `Favorites.txt` files to `JSON` format suitable for photo blogging with 
 
 Dotfiles for Git and Zsh (Z shell)
 
+## exiftool-docker-container-image
+
+Docker script to build a container image containing Alpine Linux, perl, and ExifTool
+
 ## move-files-into-directories-by-date
 
 Move all files in the specified directory into subdirectories according to modified date
