@@ -17,3 +17,7 @@ Docker script to build a container image containing Alpine Linux, perl, and Exif
 ## move-files-into-directories-by-date
 
 Move all files in the specified directory into subdirectories according to modified date
+
+## vscode
+
+User customizations for [VS Code](https://code.visualstudio.com) (from `~/Library/Application Support/Code/User`)

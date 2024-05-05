@@ -1,0 +1,8 @@
+{
+    "diffEditor.renderSideBySide": false,
+    "editor.fontFamily": "'Monaspace Neon', Menlo, Monaco, 'Courier New', monospace",
+    "editor.renderWhitespace": "boundary",
+    "extensions.ignoreRecommendations": true,
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "newUntitledFile"
+}
