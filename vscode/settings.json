@@ -3,7 +3,6 @@
     "editor.fontFamily": "'Monaspace Neon', Menlo, Monaco, 'Courier New', monospace",
     "editor.renderWhitespace": "boundary",
     "extensions.ignoreRecommendations": true,
-    "scm.showHistoryGraph": false,
     "window.zoomLevel": 1,
     "workbench.startupEditor": "newUntitledFile"
 }
