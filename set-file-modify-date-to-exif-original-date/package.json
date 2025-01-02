@@ -1,0 +1,17 @@
+{
+  "name": "set-file-modify-date-to-exif-original-date",
+  "version": "1.0.0",
+  "description": "Set a file's modify date (in the file system) to the DateTimeOriginal date stored in its EXIF metadata",
+  "main": "index.mjs",
+  "bin": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidAnson/Utilities.git"
+  },
+  "author": "David Anson (https://dlaa.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "exifr": "7.1.3"
+  },
+  "private": true
+}

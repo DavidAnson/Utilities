@@ -18,6 +18,10 @@ Docker script to build a container image containing Alpine Linux, perl, and Exif
 
 Move all files in the specified directory into subdirectories according to modified date
 
+## set-file-modify-date-to-exif-original-date
+
+Set a file's modify date (in the file system) to the DateTimeOriginal date stored in its EXIF metadata
+
 ## vscode
 
 User customizations for [VS Code](https://code.visualstudio.com) (from `~/Library/Application Support/Code/User`)
