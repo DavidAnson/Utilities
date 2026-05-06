@@ -1,8 +1,11 @@
 [user]
 	name = David Anson
 	email = david@dlaa.me
+	signingkey = ~/.ssh/KEY_NAME.pub
 [core]
 	editor = nano
+[gpg]
+	format = ssh
 [alias]
 	cdfx = clean -dfx
 	co = checkout
